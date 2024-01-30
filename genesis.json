@@ -1,6 +1,6 @@
 {
-    "genesis_time": "2024-01-23T07:20:53.642798797Z",
-    "chain_id": "razor_12938912-1",
+    "genesis_time": "2024-01-30T07:59:12.936934997Z",
+    "chain_id": "razor_9876-1",
     "initial_height": "1",
     "consensus_params": {
       "block": {
@@ -34,7 +34,7 @@
           {
             "@type": "/ethermint.types.v1.EthAccount",
             "base_account": {
-              "address": "razor1pfpfcwqqh0yp2v692gk4eu4kt0v0ufp66fp6nm",
+              "address": "razor1l82984fq54jhsnjd8pj0zpqrnq6g307th96r7l",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -44,7 +44,7 @@
           {
             "@type": "/ethermint.types.v1.EthAccount",
             "base_account": {
-              "address": "razor1pk4axn8m3wwudf0r0vf2nuwjsmnh3n2d45h3gj",
+              "address": "razor1lgk67lx5mmrswuw0ewt436qgkuy0uzyv995299",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -54,7 +54,7 @@
           {
             "@type": "/ethermint.types.v1.EthAccount",
             "base_account": {
-              "address": "razor12jwz67ah50kffgzsuj63qw3msc2r6yhx8c6d9g",
+              "address": "razor1ju74knz5avxax6lxhnczejm6s43x4y2n2n5hg0",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -73,29 +73,29 @@
         },
         "balances": [
           {
-            "address": "razor1pfpfcwqqh0yp2v692gk4eu4kt0v0ufp66fp6nm",
+            "address": "razor1ju74knz5avxax6lxhnczejm6s43x4y2n2n5hg0",
             "coins": [
               {
                 "denom": "qrzr",
-                "amount": "1050000000000000000000000000"
+                "amount": "100000000000000000000"
               }
             ]
           },
           {
-            "address": "razor1pk4axn8m3wwudf0r0vf2nuwjsmnh3n2d45h3gj",
+            "address": "razor1l82984fq54jhsnjd8pj0zpqrnq6g307th96r7l",
             "coins": [
               {
                 "denom": "qrzr",
-                "amount": "1000000000000000000000000000"
+                "amount": "100000000000000000000"
               }
             ]
           },
           {
-            "address": "razor12jwz67ah50kffgzsuj63qw3msc2r6yhx8c6d9g",
+            "address": "razor1lgk67lx5mmrswuw0ewt436qgkuy0uzyv995299",
             "coins": [
               {
                 "denom": "qrzr",
-                "amount": "1000000000000000000000000000"
+                "amount": "100000000000000000000"
               }
             ]
           }
@@ -103,7 +103,7 @@
         "supply": [
           {
             "denom": "qrzr",
-            "amount": "3050000000000000000000000000"
+            "amount": "300000000000000000000"
           }
         ],
         "denom_metadata": []
@@ -116,7 +116,7 @@
         "params": {
           "fee": "0.000000000000000000",
           "pool_creation_fee": {
-            "denom": "stake",
+            "denom": "qrzr",
             "amount": "0"
           },
           "tax_rate": "0.000000000000000000",
@@ -136,7 +136,7 @@
             }
           ]
         },
-        "standard_denom": "stake",
+        "standard_denom": "qrzr",
         "pool": [],
         "sequence": "1"
       },
@@ -255,7 +255,7 @@
                 {
                   "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                   "description": {
-                    "moniker": "init-validator",
+                    "moniker": "val_1",
                     "identity": "",
                     "website": "",
                     "security_contact": "",
@@ -267,19 +267,19 @@
                     "max_change_rate": "0.010000000000000000"
                   },
                   "min_self_delegation": "1",
-                  "delegator_address": "razor1pfpfcwqqh0yp2v692gk4eu4kt0v0ufp66fp6nm",
-                  "validator_address": "razorvaloper1pfpfcwqqh0yp2v692gk4eu4kt0v0ufp6t2k8dw",
+                  "delegator_address": "razor1l82984fq54jhsnjd8pj0zpqrnq6g307th96r7l",
+                  "validator_address": "razorvaloper1l82984fq54jhsnjd8pj0zpqrnq6g307txxd7q2",
                   "pubkey": {
                     "@type": "/cosmos.crypto.ed25519.PubKey",
-                    "key": "to/eXNCxXNyx26uZ15NC6J2jX6MOlHGsRrtxukxYjos="
+                    "key": "Tcf2yyYnDiHVnINBQjgLeJHg7tHbjn0XSvD3RxHiA2k="
                   },
                   "value": {
                     "denom": "qrzr",
-                    "amount": "900000000000000000000000"
+                    "amount": "10000000000000000000"
                   }
                 }
               ],
-              "memo": "cc0c58b8dbe521313855de41f9fdbe6b25cc0ade@10.148.0.10:26656",
+              "memo": "abee5460450825476114ec7d5c47486f51ad713d@10.148.0.18:26656",
               "timeout_height": "0",
               "extension_options": [],
               "non_critical_extension_options": []
@@ -289,7 +289,7 @@
                 {
                   "public_key": {
                     "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                    "key": "A1l7SPnZgoOSL18IKyGXgX8QxMPXdJKBnNQjblkay8SR"
+                    "key": "AiGsFyM5DTUvHZ8H4yWqsl8htZ9EkelrZHDsz6OZrrAc"
                   },
                   "mode_info": {
                     "single": {
@@ -307,7 +307,7 @@
               }
             },
             "signatures": [
-              "1QZM26W84+u34OjUR/RgoPFfh69hYKmHz6iIt8m7vWNf7ls06Ngr4lzavcbq6Gl5fkY7OgCph2t12DH0c2zuYwE="
+              "U8wHhL+o+uxzFRPCin4mj+rmnq20kPLmoVj9SSuPTUtoIMhDEBObrBTKvpQJQHhbTPiVmX5aOfnwueK6kHhC5gA="
             ]
           }
         ]
@@ -327,7 +327,7 @@
           "max_deposit_period": "172800s"
         },
         "voting_params": {
-          "voting_period": "30s"
+          "voting_period": "172800s"
         },
         "tally_params": {
           "quorum": "0.334000000000000000",

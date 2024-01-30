@@ -13,7 +13,7 @@ accounts:
   - 100000000000000000000qrzr
 - name: bob
   coins:
-  - 5000000000000qrzr
+  - 100000000000000000000qrzr
 faucet:
   name: bob
   coins:
@@ -30,7 +30,7 @@ genesis:
     gov:
       deposit_params:
         min_deposit:
-        - amount: "10000000"
+        - amount: "100000"
           denom: qrzr
     mint:
       params:
